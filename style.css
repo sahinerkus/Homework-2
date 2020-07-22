@@ -1,0 +1,149 @@
+/* .header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+  
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    background-color: teal;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: slategrey;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+} */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#sahin-nav{
+    height: 90px;
+}
+body{
+    background-color: darkcyan;
+    background-size: cover;
+    
+}
+.sahin-li-1{
+    font-size: 20px;
+    color: rgb(169, 169, 169, .5);
+    opacity: 50%;
+}
+
+#sahin1 {
+    height: 90px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    background-color: darkcyan;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color: grey ;
+    height: 1px;
+    margin: 0;
+   
+  }
+
+.sahin-container{
+    margin: 50px;
+    margin-left: 37px;
+    border: rgb(128, 128, 128, .5);
+    border-style: solid;
+    height: 800px;
+    width: 50%;
+    background-color: darkgray;
+    
+}
+.aboutmeh1{
+    color: darkcyan;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.aboutmehr{
+    width: center;
+    /* padding-right: -50px;
+    padding-left: 20px; */
+    font-size: 1.5em;
+
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.aboutmebox {
+    margin: 20px;
+    margin-left: 0;
+}
+.aboutmetext{
+    font-size: large;
+    font-style:  ;
+    padding-left: 20px;
+
+}
+@media screen and (max-width: 770px) {
+    .sahin-container{
+        height: 840px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sahin-container{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .sahin-container{
+        height: 850px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .sahin-container{
+        height: 900px;
+    }
+}
+@media screen and (max-width: 442px) {
+    .sahin-container{
+        height: 950px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .sahin-container{
+        width: 100%;
+        padding: 20px;
+    }
+}
